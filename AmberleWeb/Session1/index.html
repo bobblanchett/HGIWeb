@@ -6,5 +6,16 @@
   <body>
     <h1>Session 1 Topic: </h1>
     <p>Description</p>
+    <label for="temperature">Enter temperature: </label>
+    <input onclick="convertTemperature()" type="number" id="temperature" value = "0">
+    
+    <button onclick="convertTemperature()">Submit</button>
+    <button onclick="increment()">Increment &#8593;</button>
+    <button onclick="decrement()">Decrement &#8595;</button>
+    
+    <h3 id="celsius">Celsius: </h3>
+    <h3 id="fahrenheit">Fahrenheit: </h3>
+    
+    <script src="converter.js" />
   </body>
 </html>
