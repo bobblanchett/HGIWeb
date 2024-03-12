@@ -1,10 +1,50 @@
 <!DOCTYPE html>
+<!-- Bob Blanchett SN100639184
+    minmax of 3 numbers
+    TODO: validate input: positive numbers only  
+-->
 <html>
   <head>
-    <title>Session 1</title>
-  </head>
-  <body>
-    <h1>Session 1 Topic: </h1>
-    <p>Description</p>
+    <title>Session 4</title>
+<style>
+    input {
+        display:inline;
+        margin-right: 20px;
+    }
+    button {
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 100px;
+    }
+    span {
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    </style>
+</head>
+<body>
+    <form>
+        <div>
+        <label for="num1">Number 1:</label>
+        <input type="number" id="num1" name="num1"> 
+        
+        <label for="num2">Number 2:</label>
+        <input type="number" id="num2" name="num2">
+
+        <label for="num3">Number 3:</label>
+        <input type="number" id="num3" name="num3">
+        </div>
+
+        <div>
+        <button type="button" id="btnMin" onclick="findMinNumber()">Find Lowest Number</button>
+        <span id="minNumber"></span>
+        </div>
+        <div>
+        <button type="button" id="btnMax" onclick="findMaxNumber()">Find Highest Number</button>
+        <span id="maxNumber"></span>
+        </div>
+    </form>
+    <script src="./minmaxIFElse.js" />
   </body>
 </html>
