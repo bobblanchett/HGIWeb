@@ -2,11 +2,14 @@
 <!-- Bob Blanchett SN100639184
     minmax of 3 numbers
     TODO: validate input: positive numbers only  
+    fix form padding.
 -->
 <html>
   <head>
     <title>Session 4</title>
 <style>
+    .topnav { padding-bottom: 20px; }
+
     input {
         display:inline;
         margin-right: 20px;
@@ -22,8 +25,15 @@
         margin-bottom: 20px;
     }
     </style>
+    <link rel="stylesheet" href="/styles.css">
 </head>
-<body>
+  <body>
+    <div class="topnav">
+      <a href="/index.html">Home</a>
+      <a class="active" href="/AmberleWeb/index.html">JS/Git</a>
+      <a href="/AgnesWeb/index.html">HTML/CSS</a>
+      <a href="#about">About</a>
+    </div>
     <form>
         <div>
         <label for="num1">Number 1:</label>
