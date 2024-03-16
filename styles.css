@@ -1,7 +1,7 @@
 /*
 * Site Styles  Bob Blanchett SN100639184
 * 14/03/24 Bob  added styles for the navbar(navbar branch)
-*  
+* 16/03/24 Bob  added styles for the footer(footer branch) 
 */
 body {
   margin-top: 0; /* fixed navbar body default margin */
@@ -36,7 +36,16 @@ body {
     background-color: #04AA6D;
   }
 
-  h1 {
+h1 {
     display: block;
     text-align: center;
   }
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: green;
+    color: white;
+    text-align: center;
+}
