@@ -4,30 +4,34 @@ Bob Blanchett SN100639184
 Temperature Converter
 22/2/2024
 -->
-<html>
+<html lang="en">
   <head>
     <title>Session 1</title>
     <link rel="stylesheet" href="/styles.css">
   </head>
-    <body>
-      <div class="topnav">
-        <a href="/index.html">Home</a>
-        <a class="active" href="/AmberleWeb/index.html">JS/Git</a>
-        <a href="/AgnesWeb/index.html">HTML/CSS</a>
-        <a href="#about">About</a>
-      </div>
+  <body>
+    <div class="topnav">
+       <a href="/index.html">Home</a>
+       <a class="active" href="/AmberleWeb/index.html">JS/Git</a>
+       <a href="/AgnesWeb/index.html">HTML/CSS</a>
+       <a href="#about">About</a>
+    </div>
     <h1>Session 1 Topic: </h1>
     <p>Temperature Converter</p>
+    <form>
     <label for="temperature">Enter temperature: </label>
-    <input onclick="convertTemperature()" type="number" id="temperature" value = "0">
-    
+    <input onclick="convertTemperature()" type="number" id="temperature" value="0"> 
     <button onclick="convertTemperature()">Submit</button>
     <button onclick="increment()">Increment &#8593;</button>
     <button onclick="decrement()">Decrement &#8595;</button>
-    
+    </form>
     <h3 id="celsius">Celsius: </h3>
     <h3 id="fahrenheit">Fahrenheit: </h3>
+    <script src="converter.js"></script>
     
-    <script src="converter.js" />
+    <div class="footer">
+      <p>Content to be Developed</p>
+    </div>
   </body>
 </html>
+  
