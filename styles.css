@@ -2,6 +2,7 @@
 * Site Styles  Bob Blanchett SN100639184
 * 14/03/24 Bob  added styles for the navbar(navbar branch)
 * 16/03/24 Bob  added styles for the footer(footer branch) 
+* 17/03/24 Bob  added styles for the form(form branch)
 */
 body {
   margin-top: 0; /* fixed navbar body default margin */
@@ -52,7 +53,8 @@ h1 {
     color: white;
     text-align: center;
 }
-
+/* form  CSS
+*/
 div.formcontainer {
   position:relative;
   top: 30px;
