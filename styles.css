@@ -4,6 +4,7 @@
 * 16/03/24 Bob  added styles for the footer(footer branch) 
 * 17/03/24 Bob  added styles for the form(form branch)
 * 19/3/24 Bob added styles for replacement navbar-logo branch
+* 19/3/24 Bob added styles for gallery branch
 */
 body {
   margin-top: 0;  
@@ -65,8 +66,39 @@ header {
 .active  {
   background-color: black;
 }
-/* end navbaer css
+/* end navbar css
 */
+
+/* gallery CSS
+*/
+div.gallery-unit {
+  max-width: fit-content;
+  text-align:center;
+  position: relative;
+  margin-inline:auto;
+  padding: 0px;
+}
+
+div.gallery-container {
+  position:relative;
+  border: 2px solid #0c0df0;
+  float: left;
+  padding-top: 0px;
+  padding: 5px; 
+  max-width: fit-content;
+  margin-inline: auto;      
+}
+div.gallery-item {
+  float:left;
+  margin: 3px;
+  border: 1px solid #0c0df0;
+}
+div.gallery-desc {
+  text-align: center;
+}
+/* end gallery CSS
+*/
+
 
 /* Footer CSS
 */
