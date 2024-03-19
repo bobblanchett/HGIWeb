@@ -95,6 +95,11 @@ div.gallery-item {
 }
 div.gallery-desc {
   text-align: center;
+  text-wrap: wrap;
+  padding: 0px;
+  height: auto;
+  width: 150px;
+  overflow-wrap: anywhere;
 }
 /* end gallery CSS
 */
