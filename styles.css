@@ -92,6 +92,7 @@ div.gallery-item {
   float:left;
   margin: 3px;
   border: 1px solid #0c0df0;
+  width: 150px;
 }
 div.gallery-desc {
   text-align: center;
